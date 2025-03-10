@@ -1,0 +1,5 @@
+ 
+# config.py
+DEXTOOLS_API_KEY = "QZZo2Eleqk8iqOkev7e8M3bJWEOLKCBz9reRoGrW"
+BIRDEYE_API_KEY = "1b1cffa46bdc43a0904e0757dbf137ab"
+CMC_API_KEY = "5c2b0706-8a70-4fa2-b0df-54d8b42618be"

@@ -1,0 +1,84 @@
+body {
+    background-color: #46515E;
+    height: 100vh;
+    margin: 50px 30px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00FF00;
+}
+
+#analysis-plot {
+    width: 100vw;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #46515E;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #00FF00;
+    background-color: #46515E;
+    color: #00FF00;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    background-color: transparent;
+    color: #00FF00;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: transform 0.2s, font-size 0.2s;
+    margin: 10px auto;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    transform: scale(1.1);
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dash-dropdown {
+    background-color: #46515E !important;
+    color: #00FF00;
+    border: none;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.dash-dropdown .Select-control {
+    border: 1px solid #00FF00;
+    background-color: #46515E;
+    color: #00FF00;
+}
+
+.dash-dropdown .Select-placeholder {
+    color: #00FF00;
+}
+
+.dash-dropdown .Select-menu-outer {
+    background-color: #46515E;
+    color: #00FF00;
+}
